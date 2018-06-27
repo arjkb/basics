@@ -13,6 +13,11 @@ body {
     color: black;
 }
 
+#author-name h5 a {
+  color: black;
+  font-weight: normal;
+}
+
 a {
     text-decoration: none;
 }
