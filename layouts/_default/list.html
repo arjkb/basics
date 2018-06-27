@@ -1,3 +1,16 @@
 {{ define "content" }}
-  This is the list template
+<section>
+  <ul class=posts_listing>
+    {{ range where .Pages.ByPublishDate.Reverse "Section" "posts" }}
+    <div id="posts">
+      <div class="date-time-title">
+        <time>{{ .Date.Format "Jan 02 2006" }}</time>
+      </div>
+      <div class="date-time-title post">
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </div>
+    </div>
+    {{ end }}
+  </ul>
+</section>
 {{ end }}
