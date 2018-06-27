@@ -1,0 +1,38 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+    margin: auto;
+    max-width: 50em;
+}
+
+#page-title {
+    text-align: center;
+}
+
+#page-title h1 a, .post a {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+#page-title a:hover, .post a:hover {
+    text-decoration: underline;
+}
+
+.date-time-title {
+    display: inline-block;
+}
+
+#posts {
+    padding-left: 2em;
+}
+
+.post {
+    padding-left: 1em;
+}
+
+.blog-post {
+    padding-left: 1em;
+}
