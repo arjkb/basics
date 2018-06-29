@@ -27,6 +27,7 @@ a {
 }
 
 .date-time-title {
+    font-family: 'Ubuntu Mono', sans-serif;
     display: inline-block;
 }
 
