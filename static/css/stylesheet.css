@@ -43,3 +43,9 @@ a {
 .blog-post {
     padding-left: 1em;
 }
+
+code {
+  font-family: 'Ubuntu Mono', monospace;
+  background-color: #efefef;
+  white-space: nowrap;
+}
