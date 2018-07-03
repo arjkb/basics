@@ -13,9 +13,10 @@ body {
     color: black;
 }
 
-#author-name h5 a {
+#author-name h6 a {
   color: black;
   font-weight: normal;
+  font-size: small;
 }
 
 a {
