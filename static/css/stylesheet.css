@@ -45,6 +45,11 @@ a {
     padding-left: 1em;
 } */
 
+.blog-post-content {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
 code {
   font-family: 'Ubuntu Mono', monospace;
   white-space: pre;
