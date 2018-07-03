@@ -16,25 +16,26 @@
     </head>
     <body>
       <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <span class="navbar-brand mb-0 h1" >Company Name</span>
 
-        <span class="navbar-brand mb-0 h1" >Company Name</span>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle Navigation" name="button">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle Navigation" name="button">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link" href="#">Link 1</a>
-            <a class="nav-item nav-link" href="#">Link 2</a>
-            <a class="nav-item nav-link" href="#">Link 3</a>
-            <a class="nav-item nav-link" href="#">Link 4</a>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link" href="#">Link 1</a>
+              <a class="nav-item nav-link" href="#">Link 2</a>
+              <a class="nav-item nav-link" href="#">Link 3</a>
+              <a class="nav-item nav-link" href="#">Link 4</a>
+            </div>
           </div>
-        </div>
-      </nav>
+        </nav>
+        
         <section id="page-title">
-            <h1><a href="/">{{ .Site.Title | default "Basics"}}</a></h1>
-            <span id="author-name">
-              <h6><a href="/about">{{ .Site.Params.Author }}</a></h6>
-            </span>
+          <h1><a href="/">{{ .Site.Title | default "Basics"}}</a></h1>
+          <span id="author-name">
+            <h6><a href="/about">{{ .Site.Params.Author }}</a></h6>
+          </span>
         </section>
