@@ -29,7 +29,7 @@ a {
 
 .date-time-title {
     font-family: 'Ubuntu Mono', sans-serif;
-    display: inline-block;
+    /* display: inline-block; */
 }
 
 /* #posts {
@@ -37,9 +37,9 @@ a {
     padding-bottom: 0.5em;
 } */
 
-.post {
+/* .post {
     padding-left: 1em;
-}
+} */
 
 /* .blog-post {
     padding-left: 1em;
