@@ -1,6 +1,5 @@
 body {
     font-family: 'Ubuntu', sans-serif;
-    color: black;
     margin: auto;
     max-width: 50em;
 }
@@ -19,10 +18,6 @@ body {
   font-size: small;
 }
 
-a {
-    text-decoration: none;
-}
-
 #page-title a:hover, .post a:hover {
     text-decoration: underline;
 }
@@ -31,19 +26,6 @@ a {
     font-family: 'Ubuntu Mono', sans-serif;
     /* display: inline-block; */
 }
-
-/* #posts {
-    padding-left: 2em;
-    padding-bottom: 0.5em;
-} */
-
-/* .post {
-    padding-left: 1em;
-} */
-
-/* .blog-post {
-    padding-left: 1em;
-} */
 
 .blog-post-content {
   padding-top: 1em;
