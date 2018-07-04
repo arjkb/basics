@@ -13,9 +13,10 @@ body {
     color: black;
 }
 
-#author-name h5 a {
+#author-name h6 a {
   color: black;
   font-weight: normal;
+  font-size: small;
 }
 
 a {
@@ -28,20 +29,25 @@ a {
 
 .date-time-title {
     font-family: 'Ubuntu Mono', sans-serif;
-    display: inline-block;
+    /* display: inline-block; */
 }
 
-#posts {
+/* #posts {
     padding-left: 2em;
     padding-bottom: 0.5em;
-}
+} */
 
-.post {
+/* .post {
     padding-left: 1em;
-}
+} */
 
-.blog-post {
+/* .blog-post {
     padding-left: 1em;
+} */
+
+.blog-post-content {
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 code {
@@ -59,4 +65,8 @@ pre {
   padding-bottom: 3px;
   border: 1px solid lighten(#111, 90);
   background-color: #efefef
+}
+
+footer  {
+  text-align: center;
 }
