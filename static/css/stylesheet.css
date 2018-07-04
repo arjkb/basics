@@ -23,8 +23,7 @@ body {
 }
 
 .date-time-title {
-    font-family: 'Ubuntu Mono', sans-serif;
-    /* display: inline-block; */
+    font-family: 'Ubuntu Mono', monospace;
 }
 
 .blog-post-content {
