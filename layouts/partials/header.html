@@ -16,7 +16,7 @@
     </head>
     <body>
       <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-md navbar-light">
 
           <!-- empty brandname ensures toggler is on the right; hack really -->
           <span class="navbar-brand mb-0 h1"></span>
@@ -27,7 +27,7 @@
 
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-item nav-link" href="#">Home</a>
+              <a class="nav-item nav-link active" href="/">Home</a>
               {{ with .Site.Params.github }}<a class="nav-item nav-link" href="https://github.com/{{ . }}" target="_blank">GitHub</a>{{ end }}
               {{ with .Site.Params.gitlab }}<a class="nav-item nav-link" href="https://gitlab.com/{{ . }}" target="_blank">GitLab</a>{{ end }}
             </div>
