@@ -1,12 +1,10 @@
 # Basics
-
-A minimal theme for those who like it simple.
+A minimal theme for those who like to keep it simple. Makes use of bootstrap.
 
 Based on the [Elephants theme](https://themes.gohugo.io/elephants/).
 
 ## Features
-
-* No javascript
+* Responsive theme
 * High contrast
 * Focus on content and readability
 
