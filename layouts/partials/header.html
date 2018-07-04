@@ -28,8 +28,8 @@
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
               <a class="nav-item nav-link" href="#">Home</a>
-              {{ if and (isset .Site.Params "github") (ne .Site.Params.github "") }} <a class="nav-item nav-link" href="https://github.com/{{ .Site.Params.github }}" target="_blank">GitHub</a> {{ end }}
-              {{ if and (isset .Site.Params "gitlab") (ne .Site.Params.gitlab "") }} <a class="nav-item nav-link" href="https://gitlab.com/{{ .Site.Params.gitlab }}" target="_blank">GitLab</a> {{ end }}
+              {{ with .Site.Params.github }}<a class="nav-item nav-link" href="https://github.com/{{ . }}" target="_blank">GitHub</a>{{ end }}
+              {{ with .Site.Params.gitlab }}<a class="nav-item nav-link" href="https://gitlab.com/{{ . }}" target="_blank">GitLab</a>{{ end }}
             </div>
           </div>
         </nav>
