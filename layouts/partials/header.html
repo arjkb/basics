@@ -27,10 +27,10 @@
 
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-item nav-link active" href="/">Home</a>
+              <a class="nav-item nav-link {{ if eq .URL "/"}}active{{ end }}" href="/">Home</a>
               {{ with .Site.Params.github }}<a class="nav-item nav-link" href="https://github.com/{{ . }}" target="_blank">GitHub</a>{{ end }}
               {{ with .Site.Params.gitlab }}<a class="nav-item nav-link" href="https://gitlab.com/{{ . }}" target="_blank">GitLab</a>{{ end }}
-              <a class="nav-item nav-link" href="/about/">About</a>
+              <a class="nav-item nav-link {{ if eq .URL "/about/"}}active{{ end }}" href="/about/">About</a>
             </div>
           </div>
         </nav>
