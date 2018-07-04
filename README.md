@@ -14,7 +14,31 @@ From your hugo site, run:
 git submodule add https://github.com/arjunkrishnababu96/basics.git themes/basics
 ```
 
-## Configurations
+### Writing Posts
+Posts that should show up in the home page must be inside `contents/post`. Or you can change this behavior by tweaking `themes/basics/layouts/_default/list.html`.
+
+You should also add an about page at `contents/about.md`.
+
+Your directory should look something like this:
+```
+├── archetypes
+│   └── default.md
+├── config.toml
+├── content
+│   ├── about.md
+│   └── post
+│       ├── my-first-post.md
+│       └── my-second-post.md
+├── data
+├── layouts
+├── static
+│   └── images
+└── themes
+    └── basics
+```
+
+
+### Configurations
 #### Add author name
 Add author name to the `.Site.Params.author` parameter in your `config.toml` file.
 
