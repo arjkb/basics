@@ -39,11 +39,8 @@ code {
 
 pre {
   overflow-x: auto;
-  margin: 0 2px;
-  padding-top: 1px;
   padding-left: 5px;
   padding-right: 5px;
-  padding-bottom: 3px;
   border: 1px solid lighten(#111, 90);
   background-color: #efefef
 }
