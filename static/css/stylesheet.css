@@ -32,6 +32,10 @@ body {
   padding-bottom: 1em;
 }
 
+h1 {
+  font-size: 2rem;
+}
+
 code {
   font-family: 'Ubuntu Mono', monospace;
   white-space: pre;
