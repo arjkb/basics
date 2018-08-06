@@ -36,6 +36,10 @@ body {
   padding-bottom: 1em;
 }
 
+.posts_listing li {
+  list-style-type: none;
+}
+
 h1 {
   font-size: 2rem;
 }
