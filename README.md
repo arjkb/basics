@@ -72,4 +72,4 @@ theme = "basics"
 
 ## License
 
-Released under the MIT License.
+Released under the [MIT License.](https://github.com/arjunkrishnababu96/basics/blob/master/LICENSE.md)
