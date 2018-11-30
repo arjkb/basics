@@ -1,7 +1,8 @@
-# Basics
+# Basics Plus
 A minimal theme for those who like to keep it simple. Makes use of bootstrap.
 
-Based on the [Elephants theme](https://themes.gohugo.io/elephants/).
+Based on the [Elephants theme](https://themes.gohugo.io/elephants/). Forked
+from [Basics](https://github.com/arjunkrishnababu96/basics).
 
 ## Features
 * Responsive theme
@@ -11,7 +12,7 @@ Based on the [Elephants theme](https://themes.gohugo.io/elephants/).
 ## Installation
 From your hugo site, run:
 ```
-git submodule add https://github.com/arjunkrishnababu96/basics.git themes/basics
+git submodule add https://github.com/CrowderSoup/basics-plus.git
 ```
 
 ### Writing Posts
