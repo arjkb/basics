@@ -35,7 +35,7 @@
         </nav>
 
         <section id="page-title">
-          <h1><a href="/">{{ .Site.Title | default "Basics"}}</a></h1>
+          <h1><a href="{{.Site.BaseURL}}/">{{ .Site.Title | default "Basics"}}</a></h1>
           <span id="author-name">
             <h6><a href="/about/">{{ .Site.Params.Author }}</a></h6>
           </span>
