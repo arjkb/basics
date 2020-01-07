@@ -1,9 +1,11 @@
 {{ define "content" }}
 <div class="blog-post">
   <h1>{{ .Title }}</h1>
+  {{ if .Params.showthedate | default "true" }}
   <div class="blog-post-subheader">
     <time>{{ .Date.Format "02 Jan 2006" }}</time>
   </div>
+  {{ end }}
   <div class="blog-post-content">
     {{ .Content }}
   </div>
