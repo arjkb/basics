@@ -1,14 +1,14 @@
 {{ define "content" }}
 <section>
   <ul class="posts_listing">
-    {{ range where .Pages.ByDate.Reverse "Section" "post" }}
+    {{ range .Pages.ByDate.Reverse }}
     <li>
       <div class="row" id="posts">
         <div class="d-none d-sm-block col-sm-3 date-time-title">
           <time>{{ .Date.Format "02 Jan 2006" }}</time>
         </div>
         <div class="col-sm date-time-title post">
-          <a href="{{ .URL }}">{{ .Title }}</a>
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
         </div>
       </div>
     </li>
