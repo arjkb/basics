@@ -81,3 +81,7 @@ pre {
 footer  {
   text-align: center;
 }
+
+.navbar-nav {
+  font-family: 'Ubuntu Mono', monospace;
+}
