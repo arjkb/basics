@@ -1,0 +1,15 @@
+{{ define "content" }}
+<h1>{{ .Title }}</h1>
+<section>
+
+    {{ .Content }}
+
+    {{ with .Site.GetPage "/post" }}
+    <ol>
+        {{ range where .Pages "Params.book" "!=" nil}}
+        <li><a href="{{ .Permalink }}">{{ .Params.book.title }} by {{ .Params.book.author }}</a></li>
+        {{ end }}
+    </ol>
+    {{ end }}
+</section>
+{{ end }}
