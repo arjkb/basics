@@ -91,3 +91,7 @@ table, th, td {
   border-collapse: collapse;
   padding: 5px;
 }
+
+img {
+  max-width: 100%;
+}
