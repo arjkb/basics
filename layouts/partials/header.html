@@ -26,6 +26,10 @@
         </script>
         {{ end }}
 
+        {{ if .Params.mathjax }}
+          {{ partial "utilities/mathjax" . }}
+        {{ end }}
+
     </head>
     <body>
       <div class="container-fluid">
