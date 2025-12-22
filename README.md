@@ -53,6 +53,19 @@ theme = "basics"
     author = "Author Name"
 ```
 
+#### Add License
+Add a license for the content in your `config.toml` file. It will be displayed in the footer.
+
+See below for an example:
+```
+baseURL = ""
+languageCode = "en-us"
+title = "Basics Theme Demo"
+theme = "basics"
+license = "CC-BY-4.0"
+
+```
+
 #### Add Links to GitHub and GitLab
 Add GitHub and GitLab usernames to `.Site.Params.github` and `.Site.Params.gitlab` parameters in your `config.toml` file. Links to these accounts would show up in the top navigation bar. If these parameters are not present or is left blank, the links would disappear.
 
