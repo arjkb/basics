@@ -33,6 +33,10 @@ body {
   padding-bottom: 1em;
 }
 
+.posts_listing {
+  padding-left: 0;
+}
+
 .posts_listing li {
   list-style-type: none;
 }
