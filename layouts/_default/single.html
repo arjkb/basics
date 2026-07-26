@@ -1,11 +1,9 @@
 {{ define "content" }}
 <article class="blog-post">
-  <h1>{{ .Title }}</h1>
-  <div class="blog-post-subheader">
-    <time>{{ .Date.Format "Monday, 2 January 2006" }}</time>
-  </div>
-  <div class="blog-post-content">
-    {{ .Content }}
-  </div>
+    <h1>{{ .Title }}</h1>
+    <div class="blog-post-subheader">
+        <time>{{ .Date.Format "Monday, 2 January 2006" }}</time>
+    </div>
+    <div class="blog-post-content">{{ .Content }}</div>
 </article>
 {{ end }}

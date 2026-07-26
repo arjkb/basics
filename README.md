@@ -1,5 +1,5 @@
 # Basics
-A minimal theme for those who like to keep it simple. Makes use of bootstrap.
+A minimal theme for those who like to keep it simple.
 
 Based on the [Elephants theme](https://themes.gohugo.io/elephants/).
 

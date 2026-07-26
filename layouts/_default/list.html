@@ -2,15 +2,9 @@
 <section>
   <ul class="posts_listing">
     {{ range .Pages.ByDate.Reverse }}
-    <li>
-      <div class="row" id="posts">
-        <div class="d-none d-sm-block col-sm-3 date-time-title">
-          <time>{{ .Date.Format "02 Jan 2006" }}</time>
-        </div>
-        <div class="col-sm date-time-title post">
-          <a href="{{ .Permalink }}">{{ .Title }}</a>
-        </div>
-      </div>
+    <li class="post-row">
+      <time class="post-date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02 Jan 2006" }}</time>
+      <a class="post-link" href="{{ .Permalink }}">{{ .Title }}</a>
     </li>
     {{ end }}
   </ul>

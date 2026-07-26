@@ -1,7 +1,80 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --mono:
+        "Ubuntu Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
 body {
-    font-family: 'Helvetica', 'Helvetica Neue', 'Nimbus Sans', 'Arial', sans-serif;
+    font-family:
+        "Helvetica", "Helvetica Neue", "Nimbus Sans", "Arial", sans-serif;
+    line-height: 1.5;
+    color: #212529;
     margin: auto;
     max-width: 50em;
+    padding: 0 1rem;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.site-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem 1rem;
+    padding: 0.5rem 0;
+    font-family: var(--mono);
+}
+
+.site-nav a {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.site-nav a:hover {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.site-nav a.active {
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.posts_listing {
+    padding-left: 0;
+}
+
+.posts_listing li {
+    list-style-type: none;
+}
+
+.post-row {
+    display: flex;
+    gap: 1rem;
+    font-family: var(--mono);
+}
+
+.post-date {
+    flex: 0 0 25%;
+}
+
+@media (max-width: 576px) {
+    .post-date {
+        display: none;
+    }
 }
 
 #page-title {
@@ -14,84 +87,70 @@ body {
 }
 
 #author-name h6 a {
-  color: black;
-  font-weight: normal;
-  font-size: small;
+    color: black;
+    font-weight: normal;
+    font-size: small;
 }
 
-#page-title a:hover, .post a:hover {
+#page-title a:hover {
     text-decoration: underline;
 }
 
-.date-time-title {
-    font-family: 'Ubuntu Mono', monospace;
-}
-
 .blog-post-content {
-  padding-top: 1em;
-  padding-bottom: 1em;
-}
-
-.posts_listing {
-  padding-left: 0;
-}
-
-.posts_listing li {
-  list-style-type: none;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 h1 {
-  font-size: 2rem;
+    font-size: 2rem;
 }
 
 h2 {
-  font-size: 1.7rem;
+    font-size: 1.7rem;
 }
 
 h3 {
-  font-size: 1.4rem;
+    font-size: 1.4rem;
 }
 
-h4  {
-  font-size: 1.2rem;
+h4 {
+    font-size: 1.2rem;
 }
 
-h5  {
-  font-size: 1rem;
+h5 {
+    font-size: 1rem;
 }
 
-h6  {
-  font-size: 0.8rem;
+h6 {
+    font-size: 0.8rem;
 }
 
 code {
-  font-family: 'Ubuntu Mono', monospace;
-  white-space: pre;
-  overflow-x: auto;
+    font-family: var(--mono);
+    white-space: pre;
+    overflow-x: auto;
 }
 
 pre {
-  overflow-x: auto;
-  padding-left: 5px;
-  padding-right: 5px;
-  border: 1px solid #fff;
-  background-color: #efefef
+    overflow-x: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid #fff;
+    background-color: #efefef;
 }
 
-footer  {
-  text-align: center;
+footer {
+    text-align: center;
 }
 
-.navbar-nav {
-  font-family: 'Ubuntu Mono', monospace;
-}
-
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-  padding: 5px;
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
 }
 
 img {
-  max-width: 100%;
+    max-width: 100%;
 }
